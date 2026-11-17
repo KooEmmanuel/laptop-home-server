@@ -2,9 +2,11 @@
 
 Every command and file from the video, ready to copy. You start with an old Windows laptop and end with a home server that stores your files, which your phone can open straight from the laptop over your home Wi-Fi, even with the internet down.
 
-![Old laptop to home server: Ubuntu Server, Tailscale, Docker, Nextcloud](images/title.jpg)
+[![Old laptop to home server: Ubuntu Server, Tailscale, Docker, Nextcloud](images/title.jpg)](https://youtu.be/gMrg4DRL0K4)
 
-> 🎬 **Watch the video:** *link coming when it's live*
+> 🎬 **Watch the video:** [How to Turn Your Home Laptop into a Home Server (2026)](https://youtu.be/gMrg4DRL0K4)
+>
+> 📝 **The full write-up:** [emmanuelnyatefe.com/blog/turn-your-laptop-into-a-home-server](https://emmanuelnyatefe.com/blog/turn-your-laptop-into-a-home-server)
 
 ---
 

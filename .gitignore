@@ -1,0 +1,6 @@
+# never commit passwords or a filled-in Wi-Fi file
+.env
+*.env
+nextcloud/db/
+nextcloud/html/
+.DS_Store

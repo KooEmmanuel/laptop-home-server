@@ -1,0 +1,16 @@
+# Wi-Fi for Ubuntu Server. Save as /etc/netplan/60-wifi.yaml, then:
+#   sudo chmod 600 /etc/netplan/60-wifi.yaml
+#   sudo netplan apply
+# Change three things:
+#   wlp3s0            -> your Wi-Fi card's name (ls /sys/class/net shows it; it starts with "wl")
+#   YourWifiName      -> your Wi-Fi network's name (keep the quotes)
+#   YourWifiPassword  -> your Wi-Fi password (keep the quotes)
+# Use spaces, never Tab, and keep the indents exactly as they are.
+network:
+  version: 2
+  wifis:
+    wlp3s0:
+      dhcp4: true
+      access-points:
+        "YourWifiName":
+          password: "YourWifiPassword"

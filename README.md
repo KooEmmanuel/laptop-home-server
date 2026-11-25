@@ -33,6 +33,7 @@ Everything used here is free.
 | 7 | [Nextcloud](docs/07-nextcloud.md) | Your own Google Drive, on port 8080 |
 | 8 | [Your phone](docs/08-phone.md) | Open your files at home (no internet needed) and away (Tailscale) |
 | 9 | [Extras](docs/09-extras.md) | Battery care, closing the lid, updates, backups |
+| 10 | [Jellyfin](docs/10-jellyfin.md) | Your own Netflix, on port 8096, on your phone and TV |
 
 ---
 

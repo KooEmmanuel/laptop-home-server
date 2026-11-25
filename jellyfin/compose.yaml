@@ -1,0 +1,13 @@
+# Jellyfin: your own Netflix, on the laptop.
+# Put your movies in ./media/movies and your shows in ./media/shows, then open http://<the laptop's address>:8096
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    ports:
+      - "8096:8096"            # the web page and the apps connect here
+    volumes:
+      - ./config:/config       # your account, settings and library
+      - ./cache:/cache         # posters and thumbnails
+      - ./media:/media         # your movies and shows
+    restart: unless-stopped    # starts again by itself after a reboot

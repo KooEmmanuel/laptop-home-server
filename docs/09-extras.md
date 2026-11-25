@@ -42,3 +42,5 @@ The laptop is now the only copy of anything you upload to it. Keep a second copy
 - a USB drive you copy `~/nextcloud/html/data` to.
 
 One copy isn't a backup.
+
+Next: **[10. Jellyfin: your own Netflix](10-jellyfin.md)**
